@@ -59,11 +59,6 @@ body {
 }
 
 #result {
-    /*
-	display: 'flex';
-	justify-content: 'center';
-	align-items: 'center';
-} */
     position: fixed;
     top: 50%;
     left: 50%;
@@ -153,16 +148,19 @@ button {
 #histories {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
 }
 
 .card {
-    width: 100%;
+    width: 30%;
     height: 100%;
     padding: 50px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
     padding: 20px 30px;
     color: white;
     border-radius: 15px;
@@ -188,6 +186,7 @@ button {
         width: 100%;
     }
     .card {
-        flex-direction: column;
+        flex-direction: row;
+        width: 100%;
     }
 }

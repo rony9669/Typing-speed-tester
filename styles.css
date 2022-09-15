@@ -203,7 +203,7 @@ button {
 /* mobile  device responsive css */
 
 @media only screen and (max-width: 480px) {
-    #question {
+    #display {
         height: 200px;
     }
     #result {
